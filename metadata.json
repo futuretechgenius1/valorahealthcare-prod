@@ -1,0 +1,6 @@
+{
+  "name": "Valora Healthcare",
+  "description": "Empowering People. Exceptional Care. A modern, newly launched healthcare staffing and recruitment agency connecting dedicated healthcare professionals with forward-thinking medical organizations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

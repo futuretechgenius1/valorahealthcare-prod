@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+    --color-valora-teal: #087F8C;
+    --color-valora-navy: #16324F;
+    --color-valora-bright-teal: #19A6A0;
+    --color-valora-light-mint: #E7F5F2;
+    --color-valora-soft-blue: #EAF2F8;
+    --color-valora-soft-teal: #DDF2F0;
+    --color-valora-bg: #F7FAFC;
+    --color-valora-text: #526273;
+    --color-valora-accent: #4A90A4;
+  }
+
+  html {
+    font-family: var(--font-body);
+    color: var(--color-valora-text);
+    background-color: var(--color-valora-bg);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--color-valora-navy);
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+}
+
+/* Custom utility classes */
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
